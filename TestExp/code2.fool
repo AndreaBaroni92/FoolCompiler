@@ -1,0 +1,1 @@
+let int c = 23; bool x= true; int val ; in if  (x) then { val = 1; print (val + c) ; } else { val = 0 ; print(val);};

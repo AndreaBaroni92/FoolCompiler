@@ -1,0 +1,5 @@
+let int mcd( int a , int b ) if ( a >= b ) then { if (not ( a ==b)) then { mcd(a-b,a) } else{ a  }  } else { mcd(a, b -a ) } ; 
+
+in 
+
+mcd ( 111 , 222);

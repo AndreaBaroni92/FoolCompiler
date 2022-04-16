@@ -1,0 +1,25 @@
+/*
+Esempio che mostra come sia possibile estendere classi e come sia possibile chiamare metodi di una superclasse
+*/
+
+class calc( int a, int b ) {
+
+	int somma() a + b;
+	
+	int diff () a - b;
+	
+	int GetA() a;
+	
+	int GetB() b;
+
+}
+
+
+class ExtendedCalc extends calc( int a, int b) {
+	
+	int prodotto() this.GetA()*this.GetB();
+}
+
+let ExtendedCalc n = new ExtendedCalc( 2,4) ; in print ( n.somma()); print ( n.prodotto());
+
+

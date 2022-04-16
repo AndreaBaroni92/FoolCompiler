@@ -1,0 +1,12 @@
+class bar(int x){
+
+	int fact(int n) if ( n==0) { 1}
+					else n * fact( n -1);
+					
+	int risFact() fact( this.getx());
+	
+	int getx() x;
+
+}
+
+let bar foo = new bar( 4); in print( foo.risFact());

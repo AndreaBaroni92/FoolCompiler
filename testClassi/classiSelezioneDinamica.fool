@@ -1,0 +1,22 @@
+
+/*
+Questa classe mostra come la scelta dei metodi avvenga in modo dinamico,
+
+nel main infatti si puo' veddere come venga selezionato il  metodo bar di fie anche se proof ha tipo statico foo
+*/
+
+class foo( int a,int b){
+
+	int bar( ) a + b;
+
+}
+
+class fie extends foo( int a,int b){
+
+	int bar( ) a - b;
+	
+	int g() 32;
+
+}
+
+let foo proof = new fie( 8,3); in print( proof.bar()); 

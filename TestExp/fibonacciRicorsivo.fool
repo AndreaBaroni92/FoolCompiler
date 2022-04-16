@@ -1,0 +1,23 @@
+/*
+* somma ricorsiva
+*/
+
+let 
+	int fibo ( int n ) 
+		
+		if ( ( n == 0 ) or ( n == 1) ) then {
+			if ( n == 0) then {
+				0
+			}
+			else {
+				1
+			}
+		}
+		else {
+			fibo(n - 1 ) + fibo ( n - 2 ) 
+		};
+in
+
+	print(fibo( 18 ) );
+
+		

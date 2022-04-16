@@ -1,0 +1,36 @@
+class bar(int x){
+
+	int fact(int n) if  n==0 then 
+						{ 1}
+					else 
+						{ n * this.fact( n -1)};
+					
+	int risFact() 
+		this.fact( this.getx());
+
+	int getx() 
+		x;
+
+}
+
+class plusbar extends bar(int x){
+
+		int fibo ( int n ) 
+		
+		if ( ( n == 0 ) or ( n == 1) ) then {
+			if ( n == 0) then {
+				0
+			}
+			else {
+				1
+			}
+		}
+		else {
+			this.fibo(n - 1 ) + this.fibo ( n - 2 ) 
+		};
+		
+		int getfibo() this.fibo( this.getx() );
+
+}
+
+let plusbar foo = new plusbar( 7); in print( foo.getfibo());

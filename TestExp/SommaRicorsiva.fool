@@ -1,0 +1,14 @@
+/*
+* somma ricorsiva
+*/
+
+let 
+	int sum ( int n ) 
+		if (( n >=0) and not ( n == 0)) then {
+			n + sum ( n-1) 
+		}
+		else {
+			n 
+		};
+	in 
+		sum(5);

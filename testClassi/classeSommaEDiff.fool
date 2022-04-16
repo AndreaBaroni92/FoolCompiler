@@ -1,0 +1,9 @@
+class calc( int a, int b ) {
+
+	int somma() a + b;
+	
+	int diff () a - b;
+
+}
+
+let calc  n = new calc ( 2,4) ; in print ( n.somma()); print ( n.diff());
